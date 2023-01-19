@@ -66,6 +66,7 @@ $ deactivate
 http://127.0.0.1:5000/pao-details
 ```
 ### Send the below json in request body
+### sample request
 ```
 {
     "real_estate_number" : "000000-0000"
