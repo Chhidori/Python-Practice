@@ -10,7 +10,7 @@
 git clone git@github.com:fun-book/ozell-web-scraping-app.git
 ```
 ### After cloning, open the folder in VS code.
-* ### Create a virtual Environment
+### Create a virtual Environment
 ## For Linux
 ### If pip is not in your system
 ```
@@ -61,10 +61,18 @@ $ deactivate
 ``` 
 > flask run 
 ```
-### Then click on the link to open the app in browser
-
+### Open the below link in Postman,
+```
+http://127.0.0.1:5000/pao-details
+```
+### Send the below json in request body
+```
+{
+    "real_estate_number" : "000000-0000"
+ }
+ ```
 ### To run the Flask in debug mode
-* ### create a file named ``` .flaskenv ``` and include the lines below,
+### create a file named ``` .flaskenv ``` and include the lines below,
 ```
 FLASK_APP=app
 FLASK_ENV=development
